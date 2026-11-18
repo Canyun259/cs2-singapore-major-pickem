@@ -1,6 +1,7 @@
 <!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>新加坡 Major · 任意十格通过率查询</title><style>
 *{box-sizing:border-box}body{margin:0;background:#f7f8f3;color:#193833;font:16px/1.5 "Segoe UI","Microsoft YaHei",sans-serif}main{max-width:1040px;margin:30px auto;padding:0 24px}header{border-bottom:1px solid #afc7bb;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:#366359;padding-bottom:12px;font-size:14px}h1{font-size:clamp(26px,4vw,42px);margin:22px 0 5px}p{margin:5px 0 16px;color:#466058}h2{margin:20px 0 8px;font-size:19px}.score{display:flex;gap:30px;flex-wrap:wrap;background:#123f39;color:white;border-radius:5px;padding:18px 24px;margin:18px 0}.score div{min-width:140px}.score small{color:#d6e9df}.score strong{display:block;font-size:26px}.fields{display:flex;gap:10px;flex-wrap:wrap}select,button{border:1px solid #b0c7ba;border-radius:4px;background:white;color:#193833;padding:8px 12px;font:inherit}select{min-width:140px}button{cursor:pointer}button:hover,button:focus{background:#e0efe5}.actions{margin-top:18px;display:flex;gap:10px}table{width:100%;border-collapse:collapse;font-size:14px}td,th{text-align:left;padding:7px;border-bottom:1px solid #d6e1d8}th{background:#deebe1}td button{font-size:13px;padding:3px 10px}.scroll{overflow:auto}footer{font-size:13px;color:#49645b;margin:20px 0}#msg{color:#8c411e}
 .benchmark{background:#eaf1eb;border-left:4px solid #397261;padding:14px 20px;margin:18px 0 24px}.benchmark h2{margin:0 0 12px}.benchmark-metric{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}.benchmark-metric strong{font-size:24px;font-variant-numeric:tabular-nums}.benchmark p{margin:7px 0}.benchmark .note{font-size:13px}
+.team-slot,.team-label{display:inline-flex;align-items:center;gap:7px}.team-slot{border:1px solid #b0c7ba;border-radius:4px;padding-left:6px;background:white}.team-slot select{border:0}.team-logo{flex:none;display:inline-block;width:28px;height:28px;padding:4px;object-fit:contain;background:#253640;border-radius:4px}.team-label{white-space:nowrap;margin:2px 9px 2px 0}.team-label .team-logo{width:24px;height:24px}
 </style><main><header><b>PGL MAJOR SINGAPORE 2026</b><span>第一阶段　·　赛前快照 2026.11.18</span></header>
 <h1>任意十格通过率查询</h1><p>选择队伍即可查到这张票在 50 万次完整赛事中至少命中五格的比例。选中已占用的队伍时，两队自动互换。</p>
 <div class="score" aria-live="polite"><div><small>十格通过率</small><strong id="rate">载入中</strong></div><div><small>过关次数 / 模拟次数</small><strong id="hits">—</strong></div><div><small>全体填法中的排名</small><strong id="rank">—</strong></div></div>
@@ -13,10 +14,17 @@
 <footer>同栏顺序不影响结果。排名按过关次数计算，同分并列。模拟采样和模型误差会影响相近填法的先后。PVISION 对应 PARIVISION，GOSH 对应 BC.Game。文件可离线使用。</footer></main>
 <script>
 const names=@@NAMES@@,topTickets=@@TOP@@,hedge=@@HEDGE@@,ranksEncoded=@@RANK@@,encoded=@@DATA@@;
-const masks=[[],[],[]], fields=[], categories=['3-0 全胜 · 两支','3-1 / 3-2 普通晋级 · 六支','0-3 全败 · 两支'];
+const logos=@@LOGOS@@, fields=[], slotLogos=[], categories=['3-0 全胜 · 两支','3-1 / 3-2 普通晋级 · 六支','0-3 全败 · 两支'];
 const pop=new Uint8Array(65536),pairs=[],middles=[];
 for(let m=1;m<65536;m++){pop[m]=pop[m>>>1]+(m&1);if(pop[m]===2)pairs.push(m);if(pop[m]===6)middles.push(m);}
 const $=id=>document.getElementById(id),format=v=>v.toLocaleString('en-US');
+function teamLogo(teamIndex){
+ const img=document.createElement('img');
+ img.className='team-logo';
+ img.alt='';
+ if(teamIndex!==undefined) img.src=logos[teamIndex];
+ return img;
+}
 function members(m){return names.map((_,i)=>i).filter(i=>m&(1<<i));}
 let selected=[],seq=0,rankArr;
 async function decompress(s){
@@ -27,7 +35,10 @@ async function decompress(s){
 const cached=new Map();
 async function refresh(){
  const id=++seq;
- fields.forEach((f,i)=>f.value=selected[i]);
+ fields.forEach((field,i)=>{
+  field.value=selected[i];
+  slotLogos[i].src=logos[selected[i]];
+ });
  const mask=arr=>arr.reduce((m,i)=>m|(1<<i),0);
  const u=mask(selected.slice(0,2)),m=mask(selected.slice(2,8)),d=mask(selected.slice(8));
  const ui=pairs.indexOf(u),mi=middles.filter(x=>!(x&u)).indexOf(m),di=pairs.filter(x=>!(x&(u|m))).indexOf(d);
@@ -55,12 +66,28 @@ categories.forEach((title,g)=>{
   const i=fields.length,select=document.createElement('select');select.setAttribute('aria-label',title+' '+(j+1));
   names.forEach((n,k)=>select.add(new Option(n,k)));
   select.onchange=()=>{const k=+select.value,other=selected.indexOf(k);if(other>=0)selected[other]=selected[i];selected[i]=k;refresh();};
-  fields.push(select);box.append(select);
+  const slot=document.createElement('div');
+  slot.className='team-slot';
+  const logo=teamLogo();
+  slot.append(logo,select);
+  fields.push(select);
+  slotLogos.push(logo);
+  box.append(slot);
  }
 });
 topTickets.forEach(t=>{
- const row=$('rows').insertRow();const vals=[t.rank,...t.teams.map(g=>g.join('、')),(t.count/5000).toFixed(4)+'%'];
- vals.forEach(v=>row.insertCell().textContent=v);
+ const row=$('rows').insertRow();
+ row.insertCell().textContent=t.rank;
+ t.masks.forEach(mask=>{
+  const cell=row.insertCell();
+  members(mask).forEach(index=>{
+   const team=document.createElement('span');
+   team.className='team-label';
+   team.append(teamLogo(index),document.createTextNode(names[index]));
+   cell.append(team);
+  });
+ });
+ row.insertCell().textContent=(t.count/5000).toFixed(4)+'%';
  const button=document.createElement('button');button.textContent='载入';button.onclick=()=>fill(t.masks);row.insertCell().append(button);
 });
 $('best').onclick=()=>fill(topTickets[0].masks);$('hedge').onclick=()=>fill(hedge);

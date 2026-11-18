@@ -88,7 +88,11 @@ assert int(counts.sum(dtype=np.int64))==n*fixedPass
 out['fixedPassingTickets']=fixedPass
 (root/'summary.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),'utf-8')
 template=(root/'viewer.template.html').read_text(encoding='utf-8-sig')
-for key,val in [('@@NAMES@@',display),('@@TOP@@',top[:10]),('@@HEDGE@@',list(hedge)),('@@RANK@@',pack(rank.tobytes())),('@@DATA@@',packs)]:
+logo_dir=root/'logos'
+logo_sources=json.loads((logo_dir/'sources.json').read_text(encoding='utf-8'))
+logos=['data:image/webp;base64,'+base64.b64encode((logo_dir/logo_sources[name]['file']).read_bytes()).decode('ascii') for name in names]
+
+for key,val in [('@@LOGOS@@',logos),('@@NAMES@@',display),('@@TOP@@',top[:10]),('@@HEDGE@@',list(hedge)),('@@RANK@@',pack(rank.tobytes())),('@@DATA@@',packs)]:
     template=template.replace(key,json.dumps(val,ensure_ascii=False,separators=(',',':')))
 (root/'任意十格通过率查询.html').write_text(template,encoding='utf-8')
 with zipfile.ZipFile(dest) as z:

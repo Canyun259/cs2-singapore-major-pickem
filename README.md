@@ -2,7 +2,7 @@
 
 ## 任意十格查询与全体填法对标
 
-下载[离线查询页](https://github.com/Canyun259/cs2-singapore-major-pickem/releases/download/2026-11-18/pickem-lookup.html)，用新版浏览器打开。每换一队，页面都会显示至少命中五格的模拟通过率、全局并列排名、严格低于当前方案的百分位，以及更高、同分和更低的填法数。[完整 CSV 压缩包](https://github.com/Canyun259/cs2-singapore-major-pickem/releases/download/2026-11-18/all-tickets-csv.zip)含 120 张分表，按两支 3–0 队伍分组。
+下载[离线查询页](https://github.com/Canyun259/cs2-singapore-major-pickem/releases/download/2026-11-18/pickem-lookup-with-logos.html)，用新版浏览器打开。每换一队，页面都会显示至少命中五格的模拟通过率、全局并列排名、严格低于当前方案的百分位，以及更高、同分和更低的填法数。[完整 CSV 压缩包](https://github.com/Canyun259/cs2-singapore-major-pickem/releases/download/2026-11-18/all-tickets-csv.zip)含 120 张分表，按两支 3–0 队伍分组。
 
 在同一批 500,000 次完整赛事模拟中，逐一评估了全部 10,090,080 种合法填法。样本第一名的 3–0 为 PVISION 和 Liquid，普通晋级为 NIP、HEROIC、FaZe、Eternal Fire、100 Thieves、M80，0–3 为 GOSH 和 Chinggis Warriors。主样本通过率 31.5218%，另用 200,000 次独立模拟复核为 31.3955%。全部填法的中位通过率为 7.2668%。排名和百分位均以主样本为准，样本第一名与相近方案的次序可能随采样改变。
 
@@ -11,6 +11,8 @@
 - [遍历结果摘要及独立验证](all-tickets/summary.json)
 
 如需从头重做全量查询数据，在仓库根目录运行 `node hedge.cjs` 和 `node all-tickets/sample.cjs`，然后进入 `all-tickets`，用支持 OpenMP 的 C++17 编译器运行 `g++ -O3 -std=c++17 -fopenmp enumerate.cpp -o enumerate`。执行 `./enumerate stage.bin counts.bin` 后，用已安装 NumPy 的 Python 运行 `python export.py` 生成离线查询页和全部 CSV。
+
+队标内嵌在查询页中，可离线显示。GOSH 使用新加坡站队标。队标用于识别战队，来源见 [图片清单](all-tickets/logos/sources.json)。
 
 ## 预测模型
 
