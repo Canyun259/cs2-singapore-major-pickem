@@ -1,0 +1,707 @@
+[
+ {
+  "name": "PGL CS2 Major Copenhagen 2024 Opening Stage",
+  "opening": [
+   {
+    "teams": [
+     "Cloud9",
+     "ECSTATIC"
+    ],
+    "ranks": [
+     [
+      10,
+      8
+     ],
+     [
+      28,
+      24
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2370595/cloud9-vs-ecstatic-pgl-cs2-major-copenhagen-2024-opening-stage"
+   },
+   {
+    "teams": [
+     "Eternal Fire",
+     "The MongolZ"
+    ],
+    "ranks": [
+     [
+      11,
+      9
+     ],
+     [
+      22,
+      14
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2370596/eternal-fire-vs-the-mongolz-pgl-cs2-major-copenhagen-2024-opening-stage"
+   },
+   {
+    "teams": [
+     "ENCE",
+     "Imperial"
+    ],
+    "ranks": [
+     [
+      9,
+      13
+     ],
+     [
+      31,
+      22
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2370597/ence-vs-imperial-pgl-cs2-major-copenhagen-2024-opening-stage"
+   },
+   {
+    "teams": [
+     "Apeks",
+     "paiN"
+    ],
+    "ranks": [
+     [
+      14,
+      18
+     ],
+     [
+      38,
+      32
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2370598/apeks-vs-pain-pgl-cs2-major-copenhagen-2024-opening-stage"
+   },
+   {
+    "teams": [
+     "GamerLegion",
+     "AMKAL"
+    ],
+    "ranks": [
+     [
+      15,
+      12
+     ],
+     [
+      26,
+      36
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2370599/gamerlegion-vs-amkal-pgl-cs2-major-copenhagen-2024-opening-stage"
+   },
+   {
+    "teams": [
+     "Heroic",
+     "Lynn Vision"
+    ],
+    "ranks": [
+     [
+      12,
+      10
+     ],
+     [
+      43,
+      29
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2370600/heroic-vs-lynn-vision-pgl-cs2-major-copenhagen-2024-opening-stage"
+   },
+   {
+    "teams": [
+     "FURIA",
+     "Legacy"
+    ],
+    "ranks": [
+     [
+      16,
+      19
+     ],
+     [
+      35,
+      34
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2370601/furia-vs-legacy-pgl-cs2-major-copenhagen-2024-opening-stage"
+   },
+   {
+    "teams": [
+     "SAW",
+     "KOI"
+    ],
+    "ranks": [
+     [
+      18,
+      17
+     ],
+     [
+      27,
+      33
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2370602/saw-vs-koi-pgl-cs2-major-copenhagen-2024-opening-stage"
+   }
+  ]
+ },
+ {
+  "name": "Perfect World Shanghai Major 2024 Opening Stage",
+  "opening": [
+   {
+    "teams": [
+     "FURIA",
+     "GamerLegion"
+    ],
+    "ranks": [
+     [
+      8,
+      11
+     ],
+     [
+      22,
+      21
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2377663/furia-vs-gamerlegion-perfect-world-shanghai-major-2024-opening-stage"
+   },
+   {
+    "teams": [
+     "Virtus.pro",
+     "MIBR"
+    ],
+    "ranks": [
+     [
+      12,
+      16
+     ],
+     [
+      19,
+      22
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2377664/virtuspro-vs-mibr-perfect-world-shanghai-major-2024-opening-stage"
+   },
+   {
+    "teams": [
+     "Team Liquid",
+     "Cloud9"
+    ],
+    "ranks": [
+     [
+      13,
+      9
+     ],
+     [
+      35,
+      31
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2377665/liquid-vs-cloud9-perfect-world-shanghai-major-2024-opening-stage"
+   },
+   {
+    "teams": [
+     "Complexity",
+     "FlyQuest"
+    ],
+    "ranks": [
+     [
+      14,
+      17
+     ],
+     [
+      20,
+      14
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2377666/complexity-vs-flyquest-perfect-world-shanghai-major-2024-opening-stage"
+   },
+   {
+    "teams": [
+     "BIG",
+     "Passion UA"
+    ],
+    "ranks": [
+     [
+      18,
+      19
+     ],
+     [
+      28,
+      42
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2377667/big-vs-passion-ua-perfect-world-shanghai-major-2024-opening-stage"
+   },
+   {
+    "teams": [
+     "fnatic",
+     "Wildcard"
+    ],
+    "ranks": [
+     [
+      29,
+      26
+     ],
+     [
+      24,
+      28
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2377668/fnatic-vs-wildcard-perfect-world-shanghai-major-2024-opening-stage"
+   },
+   {
+    "teams": [
+     "The MongolZ",
+     "Rare Atom"
+    ],
+    "ranks": [
+     [
+      11,
+      5
+     ],
+     [
+      58,
+      87
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2377669/the-mongolz-vs-rare-atom-perfect-world-shanghai-major-2024-opening-stage"
+   },
+   {
+    "teams": [
+     "paiN",
+     "Imperial"
+    ],
+    "ranks": [
+     [
+      17,
+      18
+     ],
+     [
+      26,
+      36
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2377670/pain-vs-imperial-perfect-world-shanghai-major-2024-opening-stage"
+   }
+  ]
+ },
+ {
+  "name": "BLAST.tv Austin Major 2025 Stage 1",
+  "opening": [
+   {
+    "teams": [
+     "Complexity",
+     "OG"
+    ],
+    "ranks": [
+     [
+      17,
+      17
+     ],
+     [
+      42,
+      31
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2382296/complexity-vs-og-blasttv-austin-major-2025-stage-1"
+   },
+   {
+    "teams": [
+     "Heroic",
+     "Chinggis Warriors"
+    ],
+    "ranks": [
+     [
+      15,
+      12
+     ],
+     [
+      37,
+      40
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2382297/heroic-vs-chinggis-warriors-blasttv-austin-major-2025-stage-1"
+   },
+   {
+    "teams": [
+     "B8",
+     "Imperial"
+    ],
+    "ranks": [
+     [
+      23,
+      20
+     ],
+     [
+      39,
+      42
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2382298/b8-vs-imperial-blasttv-austin-major-2025-stage-1"
+   },
+   {
+    "teams": [
+     "BETBOOM",
+     "Nemiga"
+    ],
+    "ranks": [
+     [
+      33,
+      32
+     ],
+     [
+      49,
+      47
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2382299/betboom-vs-nemiga-blasttv-austin-major-2025-stage-1"
+   },
+   {
+    "teams": [
+     "TYLOO",
+     "NRG"
+    ],
+    "ranks": [
+     [
+      25,
+      18
+     ],
+     [
+      34,
+      36
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2382300/tyloo-vs-nrg-blasttv-austin-major-2025-stage-1"
+   },
+   {
+    "teams": [
+     "Lynn Vision",
+     "Legacy"
+    ],
+    "ranks": [
+     [
+      30,
+      25
+     ],
+     [
+      31,
+      49
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2382301/lynn-vision-vs-legacy-blasttv-austin-major-2025-stage-1"
+   },
+   {
+    "teams": [
+     "Wildcard",
+     "Metizport"
+    ],
+    "ranks": [
+     [
+      24,
+      48
+     ],
+     [
+      55,
+      60
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2382302/wildcard-vs-metizport-blasttv-austin-major-2025-stage-1"
+   },
+   {
+    "teams": [
+     "FlyQuest",
+     "Fluxo"
+    ],
+    "ranks": [
+     [
+      22,
+      24
+     ],
+     [
+      45,
+      56
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2382303/flyquest-vs-fluxo-blasttv-austin-major-2025-stage-1"
+   }
+  ]
+ },
+ {
+  "name": "StarLadder Budapest Major 2025 Stage 1",
+  "opening": [
+   {
+    "teams": [
+     "Legacy",
+     "FlyQuest"
+    ],
+    "ranks": [
+     [
+      14,
+      8
+     ],
+     [
+      32,
+      31
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2387851/legacy-vs-flyquest-starladder-budapest-major-2025-stage-1"
+   },
+   {
+    "teams": [
+     "fnatic",
+     "RED Canids"
+    ],
+    "ranks": [
+     [
+      27,
+      24
+     ],
+     [
+      64,
+      71
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2387852/fnatic-vs-red-canids-starladder-budapest-major-2025-stage-1"
+   },
+   {
+    "teams": [
+     "FaZe Clan",
+     "Lynn Vision"
+    ],
+    "ranks": [
+     [
+      13,
+      16
+     ],
+     [
+      22,
+      25
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2387853/faze-vs-lynn-vision-starladder-budapest-major-2025-stage-1"
+   },
+   {
+    "teams": [
+     "PARIVISION",
+     "The Huns"
+    ],
+    "ranks": [
+     [
+      35,
+      23
+     ],
+     [
+      79,
+      63
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2387854/parivision-vs-the-huns-starladder-budapest-major-2025-stage-1"
+   },
+   {
+    "teams": [
+     "B8",
+     "M80"
+    ],
+    "ranks": [
+     [
+      21,
+      18
+     ],
+     [
+      26,
+      27
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2387855/b8-vs-m80-starladder-budapest-major-2025-stage-1"
+   },
+   {
+    "teams": [
+     "Ninjas in Pyjamas",
+     "NRG"
+    ],
+    "ranks": [
+     [
+      30,
+      44
+     ],
+     [
+      38,
+      29
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2387856/ninjas-in-pyjamas-vs-nrg-starladder-budapest-major-2025-stage-1"
+   },
+   {
+    "teams": [
+     "GamerLegion",
+     "Fluxo"
+    ],
+    "ranks": [
+     [
+      17,
+      19
+     ],
+     [
+      39,
+      36
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2387857/gamerlegion-vs-fluxo-starladder-budapest-major-2025-stage-1"
+   },
+   {
+    "teams": [
+     "Imperial",
+     "Rare Atom"
+    ],
+    "ranks": [
+     [
+      46,
+      34
+     ],
+     [
+      48,
+      53
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2387858/imperial-vs-rare-atom-starladder-budapest-major-2025-stage-1"
+   }
+  ]
+ },
+ {
+  "name": "IEM Cologne Major 2026 Stage 1",
+  "opening": [
+   {
+    "teams": [
+     "GamerLegion",
+     "NRG"
+    ],
+    "ranks": [
+     [
+      10,
+      9
+     ],
+     [
+      33,
+      47
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2394772/gamerlegion-vs-nrg-iem-cologne-major-2026-stage-1"
+   },
+   {
+    "teams": [
+     "B8",
+     "TYLOO"
+    ],
+    "ranks": [
+     [
+      16,
+      16
+     ],
+     [
+      29,
+      34
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2394773/b8-vs-tyloo-iem-cologne-major-2026-stage-1"
+   },
+   {
+    "teams": [
+     "Heroic",
+     "Sharks"
+    ],
+    "ranks": [
+     [
+      27,
+      31
+     ],
+     [
+      35,
+      33
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2394774/heroic-vs-sharks-iem-cologne-major-2026-stage-1"
+   },
+   {
+    "teams": [
+     "BETBOOM",
+     "Gaimin Gladiators"
+    ],
+    "ranks": [
+     [
+      21,
+      17
+     ],
+     [
+      142,
+      56
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2394775/betboom-vs-gaimin-gladiators-iem-cologne-major-2026-stage-1"
+   },
+   {
+    "teams": [
+     "BIG",
+     "Team Liquid"
+    ],
+    "ranks": [
+     [
+      39,
+      30
+     ],
+     [
+      25,
+      38
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2394776/big-vs-liquid-iem-cologne-major-2026-stage-1"
+   },
+   {
+    "teams": [
+     "M80",
+     "Lynn Vision"
+    ],
+    "ranks": [
+     [
+      28,
+      27
+     ],
+     [
+      31,
+      24
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2394777/m80-vs-lynn-vision-iem-cologne-major-2026-stage-1"
+   },
+   {
+    "teams": [
+     "MIBR",
+     "THUNDER dOWNUNDER"
+    ],
+    "ranks": [
+     [
+      19,
+      20
+     ],
+     [
+      69,
+      59
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2394778/mibr-vs-thunder-downunder-iem-cologne-major-2026-stage-1"
+   },
+   {
+    "teams": [
+     "SINNERS",
+     "FlyQuest"
+    ],
+    "ranks": [
+     [
+      30,
+      39
+     ],
+     [
+      81,
+      70
+     ]
+    ],
+    "url": "https://www.hltv.org/matches/2394779/sinners-vs-flyquest-iem-cologne-major-2026-stage-1"
+   }
+  ]
+ }
+]

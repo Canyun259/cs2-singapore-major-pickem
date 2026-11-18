@@ -1,0 +1,118 @@
+{
+ "hltv:2370618": {
+  "maps": [
+   [
+    "Overpass",
+    false
+   ],
+   [
+    "Vertigo",
+    false
+   ]
+  ],
+  "source": "https://www.hltv.org/matches/2370618/koi-vs-furia-pgl-cs2-major-copenhagen-2024-opening-stage"
+ },
+ "hltv:2370625": {
+  "maps": [
+   [
+    "Ancient",
+    false
+   ],
+   [
+    "Anubis",
+    false
+   ]
+  ],
+  "source": "https://www.hltv.org/matches/2370625/legacy-vs-the-mongolz-pgl-cs2-major-copenhagen-2024-opening-stage"
+ },
+ "hltv:2377687": {
+  "maps": [
+   [
+    "Inferno",
+    false
+   ],
+   [
+    "Anubis",
+    true
+   ],
+   [
+    "Ancient",
+    false
+   ]
+  ],
+  "source": "https://www.hltv.org/matches/2377687/rare-atom-vs-mibr-perfect-world-shanghai-major-2024-opening-stage"
+ },
+ "hltv:2382362": {
+  "maps": [
+   [
+    "Inferno",
+    false
+   ],
+   [
+    "Dust2",
+    true
+   ],
+   [
+    "Mirage",
+    false
+   ]
+  ],
+  "source": "https://www.hltv.org/matches/2382362/imperial-vs-legacy-blasttv-austin-major-2025-stage-1"
+ },
+ "hltv:2388045": {
+  "maps": [
+   [
+    "Overpass",
+    true
+   ],
+   [
+    "Inferno",
+    true
+   ]
+  ],
+  "source": "https://www.hltv.org/matches/2388045/flyquest-vs-fluxo-starladder-budapest-major-2025-stage-1"
+ },
+ "hltv:2394853": {
+  "maps": [
+   [
+    "Ancient",
+    true
+   ],
+   [
+    "Inferno",
+    true
+   ]
+  ],
+  "source": "https://www.hltv.org/matches/2394853/tyloo-vs-sinners-iem-cologne-major-2026-stage-1"
+ },
+ "hltv:2394857": {
+  "maps": [
+   [
+    "Nuke",
+    false
+   ],
+   [
+    "Inferno",
+    true
+   ],
+   [
+    "Anubis",
+    true
+   ]
+  ],
+  "source": "https://www.hltv.org/matches/2394857/tyloo-vs-sharks-iem-cologne-major-2026-stage-1"
+ },
+ "hltv:2394859": {
+  "maps": [
+   [
+    "Anubis",
+    true
+   ],
+   [
+    "Inferno",
+    true
+   ]
+  ],
+  "source": "https://www.hltv.org/matches/2394859/mibr-vs-lynn-vision-iem-cologne-major-2026-stage-1"
+ }
+}

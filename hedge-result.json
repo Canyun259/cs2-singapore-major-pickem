@@ -1,0 +1,1188 @@
+{
+  "snapshot": "2026-11-18",
+  "search": 60000,
+  "validation": 500000,
+  "protectedSix": [
+    "Ninjas in Pyjamas",
+    "PARIVISION",
+    "HEROIC",
+    "Liquid",
+    "Eternal Fire",
+    "100 Thieves"
+  ],
+  "candidateCounts": {
+    "oneAnchor": 336,
+    "newOutsider": 252,
+    "newOutsiderOfficial": 252,
+    "newOutsiderCoverage": 252,
+    "newOutsiderMeeting": 252,
+    "newOutsiderClean": 252,
+    "newOutsiderSameOpener": 21,
+    "protectAllSix": 28,
+    "sameOpenerUp": 6
+  },
+  "pairCoverageDown": [
+    "BC.Game",
+    "Chinggis Warriors"
+  ],
+  "unrestrictedCoverage": [
+    {
+      "names": [
+        "PARIVISION",
+        "Liquid"
+      ],
+      "any": 0.470734,
+      "both": 0.04102,
+      "none": 0.529266,
+      "clean": 0.168244,
+      "onePartnerOrdinary": 0.703933313785448,
+      "meet": 0.06316,
+      "partnerOrdinaryIfMeet": 0.8837238758708043
+    },
+    {
+      "names": [
+        "BC.Game",
+        "Chinggis Warriors"
+      ],
+      "any": 0.496978,
+      "both": 0.046772,
+      "none": 0.5030220000000001,
+      "clean": 0.382272,
+      "onePartnerOrdinary": 0.25478558704237614,
+      "meet": 0.063492,
+      "partnerOrdinaryIfMeet": 0.12244062244062244
+    }
+  ],
+  "mostDownMeeting": {
+    "names": [
+      "BC.Game",
+      "Chinggis Warriors"
+    ],
+    "any": 0.496978,
+    "both": 0.046772,
+    "none": 0.5030220000000001,
+    "clean": 0.382272,
+    "onePartnerOrdinary": 0.25478558704237614,
+    "meet": 0.063492,
+    "partnerOrdinaryIfMeet": 0.12244062244062244
+  },
+  "mostUpMeeting": {
+    "names": [
+      "Ninjas in Pyjamas",
+      "100 Thieves"
+    ],
+    "any": 0.42595,
+    "both": 0.027134,
+    "none": 0.57405,
+    "clean": 0.15885,
+    "onePartnerOrdinary": 0.6697324079274652,
+    "meet": 0.067956,
+    "partnerOrdinaryIfMeet": 0.8624109718052858
+  },
+  "reports": {
+    "original": {
+      "picks": [
+        [
+          "PARIVISION",
+          "Liquid"
+        ],
+        [
+          "Ninjas in Pyjamas",
+          "HEROIC",
+          "FaZe",
+          "Eternal Fire",
+          "100 Thieves",
+          "M80"
+        ],
+        [
+          "BC.Game",
+          "Chinggis Warriors"
+        ]
+      ],
+      "pass": 0.315218,
+      "cappedPass": 0.293088,
+      "eachSpecial": 0.245014,
+      "anySpecial": 0.722698,
+      "middleMean": 2.776544,
+      "middleThree": 0.616596,
+      "middleFour": 0.220678,
+      "eachPlusThree": 0.18887,
+      "passWithNeither": 0.003078,
+      "up": {
+        "any": 0.470734,
+        "both": 0.04102,
+        "none": 0.529266,
+        "clean": 0.168244,
+        "onePartnerOrdinary": 0.703933313785448,
+        "meet": 0.06316,
+        "partnerOrdinaryIfMeet": 0.8837238758708043
+      },
+      "down": {
+        "any": 0.496978,
+        "both": 0.046772,
+        "none": 0.5030220000000001,
+        "clean": 0.382272,
+        "onePartnerOrdinary": 0.25478558704237614,
+        "meet": 0.063492,
+        "partnerOrdinaryIfMeet": 0.12244062244062244
+      },
+      "newOnly": 0,
+      "originalOnly": 0,
+      "distribution": [
+        1713,
+        19330,
+        68788,
+        121596,
+        130964,
+        95210,
+        45749,
+        13598,
+        2735,
+        306,
+        11
+      ]
+    },
+    "oneAnchor": {
+      "picks": [
+        [
+          "FaZe",
+          "Liquid"
+        ],
+        [
+          "Ninjas in Pyjamas",
+          "PARIVISION",
+          "HEROIC",
+          "Eternal Fire",
+          "100 Thieves",
+          "M80"
+        ],
+        [
+          "BC.Game",
+          "Chinggis Warriors"
+        ]
+      ],
+      "pass": 0.300594,
+      "cappedPass": 0.282424,
+      "eachSpecial": 0.205758,
+      "anySpecial": 0.679418,
+      "middleMean": 2.842984,
+      "middleThree": 0.645656,
+      "middleFour": 0.240542,
+      "eachPlusThree": 0.166886,
+      "passWithNeither": 0.004628,
+      "up": {
+        "any": 0.388198,
+        "both": 0.020886,
+        "none": 0.611802,
+        "clean": 0.173304,
+        "onePartnerOrdinary": 0.5850448664895239,
+        "meet": 0.033442,
+        "partnerOrdinaryIfMeet": 0.811494527839244
+      },
+      "down": {
+        "any": 0.496978,
+        "both": 0.046772,
+        "none": 0.5030220000000001,
+        "clean": 0.382272,
+        "onePartnerOrdinary": 0.25478558704237614,
+        "meet": 0.063492,
+        "partnerOrdinaryIfMeet": 0.12244062244062244
+      },
+      "newOnly": 54518,
+      "originalOnly": 61830,
+      "distribution": [
+        1405,
+        17816,
+        70502,
+        126579,
+        133401,
+        92784,
+        43259,
+        11985,
+        2051,
+        209,
+        9
+      ]
+    },
+    "newOutsider": {
+      "picks": [
+        [
+          "Liquid",
+          "9z"
+        ],
+        [
+          "Ninjas in Pyjamas",
+          "PARIVISION",
+          "HEROIC",
+          "FaZe",
+          "Eternal Fire",
+          "100 Thieves"
+        ],
+        [
+          "BC.Game",
+          "Chinggis Warriors"
+        ]
+      ],
+      "pass": 0.287104,
+      "cappedPass": 0.26953,
+      "eachSpecial": 0.179202,
+      "anySpecial": 0.652524,
+      "middleMean": 2.884234,
+      "middleThree": 0.667566,
+      "middleFour": 0.24878,
+      "eachPlusThree": 0.148656,
+      "passWithNeither": 0.005058,
+      "up": {
+        "any": 0.334748,
+        "both": 0.013216,
+        "none": 0.665252,
+        "clean": 0.183794,
+        "onePartnerOrdinary": 0.4694835972780314,
+        "meet": 0.02513,
+        "partnerOrdinaryIfMeet": 0.7507361719060883
+      },
+      "down": {
+        "any": 0.496978,
+        "both": 0.046772,
+        "none": 0.5030220000000001,
+        "clean": 0.382272,
+        "onePartnerOrdinary": 0.25478558704237614,
+        "meet": 0.063492,
+        "partnerOrdinaryIfMeet": 0.12244062244062244
+      },
+      "newOnly": 47449,
+      "originalOnly": 61506,
+      "distribution": [
+        1139,
+        16095,
+        69058,
+        132222,
+        137934,
+        90335,
+        40673,
+        10822,
+        1607,
+        112,
+        3
+      ]
+    },
+    "newOutsiderOfficial": {
+      "picks": [
+        [
+          "Liquid",
+          "9z"
+        ],
+        [
+          "Ninjas in Pyjamas",
+          "PARIVISION",
+          "HEROIC",
+          "FaZe",
+          "Eternal Fire",
+          "100 Thieves"
+        ],
+        [
+          "BC.Game",
+          "Chinggis Warriors"
+        ]
+      ],
+      "pass": 0.287104,
+      "cappedPass": 0.26953,
+      "eachSpecial": 0.179202,
+      "anySpecial": 0.652524,
+      "middleMean": 2.884234,
+      "middleThree": 0.667566,
+      "middleFour": 0.24878,
+      "eachPlusThree": 0.148656,
+      "passWithNeither": 0.005058,
+      "up": {
+        "any": 0.334748,
+        "both": 0.013216,
+        "none": 0.665252,
+        "clean": 0.183794,
+        "onePartnerOrdinary": 0.4694835972780314,
+        "meet": 0.02513,
+        "partnerOrdinaryIfMeet": 0.7507361719060883
+      },
+      "down": {
+        "any": 0.496978,
+        "both": 0.046772,
+        "none": 0.5030220000000001,
+        "clean": 0.382272,
+        "onePartnerOrdinary": 0.25478558704237614,
+        "meet": 0.063492,
+        "partnerOrdinaryIfMeet": 0.12244062244062244
+      },
+      "newOnly": 47449,
+      "originalOnly": 61506,
+      "distribution": [
+        1139,
+        16095,
+        69058,
+        132222,
+        137934,
+        90335,
+        40673,
+        10822,
+        1607,
+        112,
+        3
+      ]
+    },
+    "newOutsiderCoverage": {
+      "picks": [
+        [
+          "PARIVISION",
+          "9z"
+        ],
+        [
+          "Ninjas in Pyjamas",
+          "HEROIC",
+          "FaZe",
+          "Liquid",
+          "Eternal Fire",
+          "100 Thieves"
+        ],
+        [
+          "BC.Game",
+          "Chinggis Warriors"
+        ]
+      ],
+      "pass": 0.287826,
+      "cappedPass": 0.268606,
+      "eachSpecial": 0.163594,
+      "anySpecial": 0.675284,
+      "middleMean": 2.878616,
+      "middleThree": 0.664974,
+      "middleFour": 0.248524,
+      "eachPlusThree": 0.136432,
+      "passWithNeither": 0.004638,
+      "up": {
+        "any": 0.3419,
+        "both": 0.012122,
+        "none": 0.6581,
+        "clean": 0.183234,
+        "onePartnerOrdinary": 0.4811297296969476,
+        "meet": 0.033562,
+        "partnerOrdinaryIfMeet": 0.7566295214826292
+      },
+      "down": {
+        "any": 0.496978,
+        "both": 0.046772,
+        "none": 0.5030220000000001,
+        "clean": 0.382272,
+        "onePartnerOrdinary": 0.25478558704237614,
+        "meet": 0.063492,
+        "partnerOrdinaryIfMeet": 0.12244062244062244
+      },
+      "newOnly": 48249,
+      "originalOnly": 61945,
+      "distribution": [
+        1199,
+        15957,
+        67488,
+        130061,
+        141382,
+        93791,
+        39601,
+        9266,
+        1171,
+        81,
+        3
+      ]
+    },
+    "newOutsiderMeeting": {
+      "picks": [
+        [
+          "Ninjas in Pyjamas",
+          "9z"
+        ],
+        [
+          "PARIVISION",
+          "HEROIC",
+          "FaZe",
+          "Liquid",
+          "Eternal Fire",
+          "100 Thieves"
+        ],
+        [
+          "BC.Game",
+          "Chinggis Warriors"
+        ]
+      ],
+      "pass": 0.280978,
+      "cappedPass": 0.262148,
+      "eachSpecial": 0.156424,
+      "anySpecial": 0.66718,
+      "middleMean": 2.876974,
+      "middleThree": 0.664418,
+      "middleFour": 0.24787,
+      "eachPlusThree": 0.131294,
+      "passWithNeither": 0.004854,
+      "up": {
+        "any": 0.326626,
+        "both": 0.011332,
+        "none": 0.6733739999999999,
+        "clean": 0.172582,
+        "onePartnerOrdinary": 0.4885725703628994,
+        "meet": 0.040286,
+        "partnerOrdinaryIfMeet": 0.7593705009184332
+      },
+      "down": {
+        "any": 0.496978,
+        "both": 0.046772,
+        "none": 0.5030220000000001,
+        "clean": 0.382272,
+        "onePartnerOrdinary": 0.25478558704237614,
+        "meet": 0.063492,
+        "partnerOrdinaryIfMeet": 0.12244062244062244
+      },
+      "newOnly": 80588,
+      "originalOnly": 97708,
+      "distribution": [
+        1080,
+        16367,
+        68325,
+        131691,
+        142048,
+        91306,
+        38950,
+        9111,
+        1048,
+        72,
+        2
+      ]
+    },
+    "newOutsiderClean": {
+      "picks": [
+        [
+          "PARIVISION",
+          "Lynn Vision"
+        ],
+        [
+          "Ninjas in Pyjamas",
+          "HEROIC",
+          "FaZe",
+          "Liquid",
+          "Eternal Fire",
+          "100 Thieves"
+        ],
+        [
+          "BC.Game",
+          "Chinggis Warriors"
+        ]
+      ],
+      "pass": 0.27268,
+      "cappedPass": 0.255276,
+      "eachSpecial": 0.14689,
+      "anySpecial": 0.65358,
+      "middleMean": 2.878616,
+      "middleThree": 0.664974,
+      "middleFour": 0.248524,
+      "eachPlusThree": 0.12305,
+      "passWithNeither": 0.005592,
+      "up": {
+        "any": 0.303492,
+        "both": 0.00378,
+        "none": 0.696508,
+        "clean": 0.208136,
+        "onePartnerOrdinary": 0.31815876574845187,
+        "meet": 0.014346,
+        "partnerOrdinaryIfMeet": 0.6840931270040429
+      },
+      "down": {
+        "any": 0.496978,
+        "both": 0.046772,
+        "none": 0.5030220000000001,
+        "clean": 0.382272,
+        "onePartnerOrdinary": 0.25478558704237614,
+        "meet": 0.063492,
+        "partnerOrdinaryIfMeet": 0.12244062244062244
+      },
+      "newOnly": 42379,
+      "originalOnly": 63648,
+      "distribution": [
+        1227,
+        16341,
+        69654,
+        133706,
+        142732,
+        90891,
+        36473,
+        8032,
+        891,
+        51,
+        2
+      ]
+    },
+    "newOutsiderSameOpener": {
+      "picks": [
+        [
+          "PARIVISION",
+          "DENDELE"
+        ],
+        [
+          "Ninjas in Pyjamas",
+          "HEROIC",
+          "FaZe",
+          "Liquid",
+          "Eternal Fire",
+          "100 Thieves"
+        ],
+        [
+          "BC.Game",
+          "Chinggis Warriors"
+        ]
+      ],
+      "pass": 0.282688,
+      "cappedPass": 0.266356,
+      "eachSpecial": 0.162146,
+      "anySpecial": 0.670062,
+      "middleMean": 2.878616,
+      "middleThree": 0.664974,
+      "middleFour": 0.248524,
+      "eachPlusThree": 0.135346,
+      "passWithNeither": 0.004768,
+      "up": {
+        "any": 0.33523,
+        "both": 0,
+        "none": 0.6647700000000001,
+        "clean": 0.205742,
+        "onePartnerOrdinary": 0.3862661456313576,
+        "meet": 0,
+        "partnerOrdinaryIfMeet": null
+      },
+      "down": {
+        "any": 0.496978,
+        "both": 0.046772,
+        "none": 0.5030220000000001,
+        "clean": 0.382272,
+        "onePartnerOrdinary": 0.25478558704237614,
+        "meet": 0.063492,
+        "partnerOrdinaryIfMeet": 0.12244062244062244
+      },
+      "newOnly": 46503,
+      "originalOnly": 62768,
+      "distribution": [
+        1208,
+        15991,
+        68043,
+        131193,
+        142221,
+        93642,
+        38650,
+        8289,
+        742,
+        21,
+        0
+      ]
+    },
+    "protectAllSix": {
+      "picks": [
+        [
+          "FaZe",
+          "9z"
+        ],
+        [
+          "Ninjas in Pyjamas",
+          "PARIVISION",
+          "HEROIC",
+          "Liquid",
+          "Eternal Fire",
+          "100 Thieves"
+        ],
+        [
+          "BC.Game",
+          "Chinggis Warriors"
+        ]
+      ],
+      "pass": 0.267038,
+      "cappedPass": 0.247932,
+      "eachSpecial": 0.116666,
+      "anySpecial": 0.624576,
+      "middleMean": 2.945056,
+      "middleThree": 0.695774,
+      "middleFour": 0.267468,
+      "eachPlusThree": 0.100018,
+      "passWithNeither": 0.007262,
+      "up": {
+        "any": 0.244264,
+        "both": 0.007088,
+        "none": 0.755736,
+        "clean": 0.139432,
+        "onePartnerOrdinary": 0.44200087698586704,
+        "meet": 0.019168,
+        "partnerOrdinaryIfMeet": 0.7207846410684474
+      },
+      "down": {
+        "any": 0.496978,
+        "both": 0.046772,
+        "none": 0.5030220000000001,
+        "clean": 0.382272,
+        "onePartnerOrdinary": 0.25478558704237614,
+        "meet": 0.063492,
+        "partnerOrdinaryIfMeet": 0.12244062244062244
+      },
+      "newOnly": 73260,
+      "originalOnly": 97350,
+      "distribution": [
+        895,
+        13757,
+        67341,
+        136677,
+        147811,
+        90530,
+        34259,
+        7749,
+        916,
+        60,
+        5
+      ]
+    },
+    "sameOpenerUp": {
+      "picks": [
+        [
+          "Ninjas in Pyjamas",
+          "M80"
+        ],
+        [
+          "PARIVISION",
+          "HEROIC",
+          "FaZe",
+          "Liquid",
+          "Eternal Fire",
+          "100 Thieves"
+        ],
+        [
+          "BC.Game",
+          "Chinggis Warriors"
+        ]
+      ],
+      "pass": 0.282778,
+      "cappedPass": 0.266688,
+      "eachSpecial": 0.163392,
+      "anySpecial": 0.671482,
+      "middleMean": 2.876974,
+      "middleThree": 0.664418,
+      "middleFour": 0.24787,
+      "eachPlusThree": 0.136708,
+      "passWithNeither": 0.004542,
+      "up": {
+        "any": 0.337896,
+        "both": 0,
+        "none": 0.662104,
+        "clean": 0.19458,
+        "onePartnerOrdinary": 0.424142339654805,
+        "meet": 0,
+        "partnerOrdinaryIfMeet": null
+      },
+      "down": {
+        "any": 0.496978,
+        "both": 0.046772,
+        "none": 0.5030220000000001,
+        "clean": 0.382272,
+        "onePartnerOrdinary": 0.25478558704237614,
+        "meet": 0.063492,
+        "partnerOrdinaryIfMeet": 0.12244062244062244
+      },
+      "newOnly": 82750,
+      "originalOnly": 98970,
+      "distribution": [
+        1078,
+        16256,
+        68123,
+        130883,
+        142271,
+        93147,
+        39102,
+        8408,
+        716,
+        16,
+        0
+      ]
+    },
+    "closingPairs": {
+      "picks": [
+        [
+          "Ninjas in Pyjamas",
+          "100 Thieves"
+        ],
+        [
+          "PARIVISION",
+          "HEROIC",
+          "FaZe",
+          "Liquid",
+          "Eternal Fire",
+          "M80"
+        ],
+        [
+          "BC.Game",
+          "Chinggis Warriors"
+        ]
+      ],
+      "pass": 0.29813,
+      "cappedPass": 0.276888,
+      "eachSpecial": 0.225172,
+      "anySpecial": 0.697756,
+      "middleMean": 2.787252,
+      "middleThree": 0.627604,
+      "middleFour": 0.217272,
+      "eachPlusThree": 0.175616,
+      "passWithNeither": 0.00313,
+      "up": {
+        "any": 0.42595,
+        "both": 0.027134,
+        "none": 0.57405,
+        "clean": 0.15885,
+        "onePartnerOrdinary": 0.6697324079274652,
+        "meet": 0.067956,
+        "partnerOrdinaryIfMeet": 0.8624109718052858
+      },
+      "down": {
+        "any": 0.496978,
+        "both": 0.046772,
+        "none": 0.5030220000000001,
+        "clean": 0.382272,
+        "onePartnerOrdinary": 0.25478558704237614,
+        "meet": 0.063492,
+        "partnerOrdinaryIfMeet": 0.12244062244062244
+      },
+      "newOnly": 87679,
+      "originalOnly": 96223,
+      "distribution": [
+        1434,
+        17857,
+        69696,
+        128029,
+        133919,
+        93429,
+        43194,
+        10889,
+        1478,
+        75,
+        0
+      ]
+    }
+  },
+  "history": [
+    {
+      "stage": "BLAST.tv Austin Major 2025 Stage 1",
+      "scale": 0.820448210302478,
+      "tested": {
+        "baseline": {
+          "picks": [
+            [
+              "Complexity",
+              "Heroic"
+            ],
+            [
+              "B8",
+              "BETBOOM",
+              "TYLOO",
+              "Lynn Vision",
+              "Wildcard",
+              "FlyQuest"
+            ],
+            [
+              "Metizport",
+              "Fluxo"
+            ]
+          ],
+          "points": [
+            1,
+            3,
+            2
+          ],
+          "hits": 6
+        },
+        "newOutsiderSameOpener": {
+          "picks": [
+            [
+              "Heroic",
+              "Chinggis Warriors"
+            ],
+            [
+              "Complexity",
+              "B8",
+              "BETBOOM",
+              "TYLOO",
+              "Lynn Vision",
+              "FlyQuest"
+            ],
+            [
+              "Metizport",
+              "Fluxo"
+            ]
+          ],
+          "points": [
+            1,
+            3,
+            2
+          ],
+          "hits": 6,
+          "fallback": false
+        },
+        "newOutsiderCoverage": {
+          "picks": [
+            [
+              "Heroic",
+              "NRG"
+            ],
+            [
+              "Complexity",
+              "B8",
+              "BETBOOM",
+              "TYLOO",
+              "Lynn Vision",
+              "FlyQuest"
+            ],
+            [
+              "Metizport",
+              "Fluxo"
+            ]
+          ],
+          "points": [
+            1,
+            3,
+            2
+          ],
+          "hits": 6,
+          "fallback": false
+        },
+        "newOutsiderClean": {
+          "picks": [
+            [
+              "Heroic",
+              "Nemiga"
+            ],
+            [
+              "Complexity",
+              "B8",
+              "BETBOOM",
+              "TYLOO",
+              "Lynn Vision",
+              "FlyQuest"
+            ],
+            [
+              "Metizport",
+              "Fluxo"
+            ]
+          ],
+          "points": [
+            1,
+            3,
+            2
+          ],
+          "hits": 6,
+          "fallback": false
+        },
+        "closingPairs": {
+          "picks": [
+            [
+              "Heroic",
+              "TYLOO"
+            ],
+            [
+              "Complexity",
+              "B8",
+              "BETBOOM",
+              "Lynn Vision",
+              "Wildcard",
+              "FlyQuest"
+            ],
+            [
+              "Chinggis Warriors",
+              "Fluxo"
+            ]
+          ],
+          "points": [
+            1,
+            2,
+            1
+          ],
+          "hits": 4,
+          "fallback": false
+        }
+      }
+    },
+    {
+      "stage": "StarLadder Budapest Major 2025 Stage 1",
+      "scale": 0.8147024034599502,
+      "tested": {
+        "baseline": {
+          "picks": [
+            [
+              "Legacy",
+              "PARIVISION"
+            ],
+            [
+              "FaZe Clan",
+              "B8",
+              "GamerLegion",
+              "fnatic",
+              "Lynn Vision",
+              "M80"
+            ],
+            [
+              "RED Canids",
+              "The Huns"
+            ]
+          ],
+          "points": [
+            0,
+            3,
+            0
+          ],
+          "hits": 3
+        },
+        "newOutsiderSameOpener": {
+          "picks": [
+            [
+              "Legacy",
+              "FlyQuest"
+            ],
+            [
+              "FaZe Clan",
+              "B8",
+              "GamerLegion",
+              "PARIVISION",
+              "Lynn Vision",
+              "M80"
+            ],
+            [
+              "RED Canids",
+              "The Huns"
+            ]
+          ],
+          "points": [
+            1,
+            3,
+            0
+          ],
+          "hits": 4,
+          "fallback": false
+        },
+        "newOutsiderCoverage": {
+          "picks": [
+            [
+              "Legacy",
+              "NRG"
+            ],
+            [
+              "FaZe Clan",
+              "B8",
+              "GamerLegion",
+              "PARIVISION",
+              "Lynn Vision",
+              "M80"
+            ],
+            [
+              "RED Canids",
+              "The Huns"
+            ]
+          ],
+          "points": [
+            0,
+            3,
+            0
+          ],
+          "hits": 3,
+          "fallback": false
+        },
+        "newOutsiderClean": {
+          "picks": [
+            [
+              "Legacy",
+              "Rare Atom"
+            ],
+            [
+              "FaZe Clan",
+              "B8",
+              "GamerLegion",
+              "PARIVISION",
+              "Lynn Vision",
+              "M80"
+            ],
+            [
+              "RED Canids",
+              "The Huns"
+            ]
+          ],
+          "points": [
+            0,
+            3,
+            0
+          ],
+          "hits": 3,
+          "fallback": false
+        },
+        "closingPairs": {
+          "picks": [
+            [
+              "Legacy",
+              "PARIVISION"
+            ],
+            [
+              "FaZe Clan",
+              "B8",
+              "GamerLegion",
+              "fnatic",
+              "Lynn Vision",
+              "M80"
+            ],
+            [
+              "RED Canids",
+              "The Huns"
+            ]
+          ],
+          "points": [
+            0,
+            3,
+            0
+          ],
+          "hits": 3,
+          "fallback": false
+        }
+      }
+    },
+    {
+      "stage": "IEM Cologne Major 2026 Stage 1",
+      "scale": 0.6169491987781452,
+      "tested": {
+        "baseline": {
+          "picks": [
+            [
+              "GamerLegion",
+              "BETBOOM"
+            ],
+            [
+              "B8",
+              "BIG",
+              "M80",
+              "MIBR",
+              "TYLOO",
+              "Lynn Vision"
+            ],
+            [
+              "Gaimin Gladiators",
+              "FlyQuest"
+            ]
+          ],
+          "points": [
+            1,
+            4,
+            1
+          ],
+          "hits": 6
+        },
+        "newOutsiderSameOpener": {
+          "picks": [
+            [
+              "GamerLegion",
+              "NRG"
+            ],
+            [
+              "B8",
+              "BETBOOM",
+              "M80",
+              "MIBR",
+              "TYLOO",
+              "Lynn Vision"
+            ],
+            [
+              "Gaimin Gladiators",
+              "FlyQuest"
+            ]
+          ],
+          "points": [
+            0,
+            3,
+            1
+          ],
+          "hits": 4,
+          "fallback": false
+        },
+        "newOutsiderCoverage": {
+          "picks": [
+            [
+              "GamerLegion",
+              "SINNERS"
+            ],
+            [
+              "B8",
+              "BETBOOM",
+              "M80",
+              "MIBR",
+              "TYLOO",
+              "Lynn Vision"
+            ],
+            [
+              "Gaimin Gladiators",
+              "FlyQuest"
+            ]
+          ],
+          "points": [
+            0,
+            3,
+            1
+          ],
+          "hits": 4,
+          "fallback": false
+        },
+        "newOutsiderClean": {
+          "picks": [
+            [
+              "GamerLegion",
+              "NRG"
+            ],
+            [
+              "B8",
+              "BETBOOM",
+              "M80",
+              "MIBR",
+              "TYLOO",
+              "Lynn Vision"
+            ],
+            [
+              "Gaimin Gladiators",
+              "FlyQuest"
+            ]
+          ],
+          "points": [
+            0,
+            3,
+            1
+          ],
+          "hits": 4,
+          "fallback": false
+        },
+        "closingPairs": {
+          "picks": [
+            [
+              "GamerLegion",
+              "MIBR"
+            ],
+            [
+              "B8",
+              "Heroic",
+              "BETBOOM",
+              "M80",
+              "TYLOO",
+              "Lynn Vision"
+            ],
+            [
+              "NRG",
+              "FlyQuest"
+            ]
+          ],
+          "points": [
+            0,
+            2,
+            0
+          ],
+          "hits": 2,
+          "fallback": false
+        }
+      }
+    }
+  ]
+}

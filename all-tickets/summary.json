@@ -1,0 +1,652 @@
+{
+  "n": 500000,
+  "holdoutN": 200000,
+  "total": 10090080,
+  "min": 3469,
+  "max": 157609,
+  "tiedFirst": 1,
+  "mean": 0.07946775446775446,
+  "median": 0.072668,
+  "above30": 12,
+  "top": [
+    {
+      "index": 588635,
+      "teams": [
+        [
+          "PVISION",
+          "Liquid"
+        ],
+        [
+          "NIP",
+          "HEROIC",
+          "FaZe",
+          "Eternal Fire",
+          "100 Thieves",
+          "M80"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        18,
+        365,
+        20480
+      ],
+      "count": 157609,
+      "rank": 1,
+      "holdout": 62791
+    },
+    {
+      "index": 1345391,
+      "teams": [
+        [
+          "PVISION",
+          "100 Thieves"
+        ],
+        [
+          "NIP",
+          "HEROIC",
+          "FaZe",
+          "Liquid",
+          "Eternal Fire",
+          "M80"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        66,
+        317,
+        20480
+      ],
+      "count": 153173,
+      "rank": 2,
+      "holdout": 60598
+    },
+    {
+      "index": 504551,
+      "teams": [
+        [
+          "NIP",
+          "Liquid"
+        ],
+        [
+          "PVISION",
+          "HEROIC",
+          "FaZe",
+          "Eternal Fire",
+          "100 Thieves",
+          "M80"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        17,
+        366,
+        20480
+      ],
+      "count": 153107,
+      "rank": 3,
+      "holdout": 61152
+    },
+    {
+      "index": 1597643,
+      "teams": [
+        [
+          "Liquid",
+          "100 Thieves"
+        ],
+        [
+          "NIP",
+          "PVISION",
+          "HEROIC",
+          "FaZe",
+          "Eternal Fire",
+          "M80"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        80,
+        303,
+        20480
+      ],
+      "count": 153072,
+      "rank": 4,
+      "holdout": 60959
+    },
+    {
+      "index": 588803,
+      "teams": [
+        [
+          "PVISION",
+          "Liquid"
+        ],
+        [
+          "NIP",
+          "HEROIC",
+          "FaZe",
+          "Eternal Fire",
+          "100 Thieves",
+          "DENDELE"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        18,
+        621,
+        20480
+      ],
+      "count": 151919,
+      "rank": 5,
+      "holdout": 60397
+    },
+    {
+      "index": 588643,
+      "teams": [
+        [
+          "PVISION",
+          "Liquid"
+        ],
+        [
+          "NIP",
+          "HEROIC",
+          "FaZe",
+          "Eternal Fire",
+          "100 Thieves",
+          "M80"
+        ],
+        [
+          "Chinggis Warriors",
+          "Lynn Vision"
+        ]
+      ],
+      "masks": [
+        18,
+        365,
+        49152
+      ],
+      "count": 151758,
+      "rank": 6,
+      "holdout": 60409
+    },
+    {
+      "index": 504719,
+      "teams": [
+        [
+          "NIP",
+          "Liquid"
+        ],
+        [
+          "PVISION",
+          "HEROIC",
+          "FaZe",
+          "Eternal Fire",
+          "100 Thieves",
+          "DENDELE"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        17,
+        622,
+        20480
+      ],
+      "count": 151405,
+      "rank": 7,
+      "holdout": 60559
+    },
+    {
+      "index": 672719,
+      "teams": [
+        [
+          "HEROIC",
+          "Liquid"
+        ],
+        [
+          "NIP",
+          "PVISION",
+          "FaZe",
+          "Eternal Fire",
+          "100 Thieves",
+          "M80"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        20,
+        363,
+        20480
+      ],
+      "count": 151229,
+      "rank": 8,
+      "holdout": 60532
+    },
+    {
+      "index": 588607,
+      "teams": [
+        [
+          "PVISION",
+          "Liquid"
+        ],
+        [
+          "NIP",
+          "HEROIC",
+          "FaZe",
+          "Eternal Fire",
+          "100 Thieves",
+          "9z"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        18,
+        237,
+        20480
+      ],
+      "count": 151222,
+      "rank": 9,
+      "holdout": 60370
+    },
+    {
+      "index": 47,
+      "teams": [
+        [
+          "NIP",
+          "PVISION"
+        ],
+        [
+          "HEROIC",
+          "FaZe",
+          "Liquid",
+          "Eternal Fire",
+          "100 Thieves",
+          "M80"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        3,
+        380,
+        20480
+      ],
+      "count": 150330,
+      "rank": 10,
+      "holdout": 59926
+    },
+    {
+      "index": 756803,
+      "teams": [
+        [
+          "FaZe",
+          "Liquid"
+        ],
+        [
+          "NIP",
+          "PVISION",
+          "HEROIC",
+          "Eternal Fire",
+          "100 Thieves",
+          "M80"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        24,
+        359,
+        20480
+      ],
+      "count": 150297,
+      "rank": 11,
+      "holdout": 59958
+    },
+    {
+      "index": 588636,
+      "teams": [
+        [
+          "PVISION",
+          "Liquid"
+        ],
+        [
+          "NIP",
+          "HEROIC",
+          "FaZe",
+          "Eternal Fire",
+          "100 Thieves",
+          "M80"
+        ],
+        [
+          "FlyQuest",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        18,
+        365,
+        24576
+      ],
+      "count": 150176,
+      "rank": 12,
+      "holdout": 60300
+    },
+    {
+      "index": 168215,
+      "teams": [
+        [
+          "PVISION",
+          "HEROIC"
+        ],
+        [
+          "NIP",
+          "FaZe",
+          "Liquid",
+          "Eternal Fire",
+          "100 Thieves",
+          "M80"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        6,
+        377,
+        20480
+      ],
+      "count": 149790,
+      "rank": 13,
+      "holdout": 59887
+    },
+    {
+      "index": 1597811,
+      "teams": [
+        [
+          "Liquid",
+          "100 Thieves"
+        ],
+        [
+          "NIP",
+          "PVISION",
+          "HEROIC",
+          "FaZe",
+          "Eternal Fire",
+          "DENDELE"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        80,
+        559,
+        20480
+      ],
+      "count": 149370,
+      "rank": 14,
+      "holdout": 59309
+    },
+    {
+      "index": 1345399,
+      "teams": [
+        [
+          "PVISION",
+          "100 Thieves"
+        ],
+        [
+          "NIP",
+          "HEROIC",
+          "FaZe",
+          "Liquid",
+          "Eternal Fire",
+          "M80"
+        ],
+        [
+          "Chinggis Warriors",
+          "Lynn Vision"
+        ]
+      ],
+      "masks": [
+        66,
+        317,
+        49152
+      ],
+      "count": 149326,
+      "rank": 15,
+      "holdout": 58961
+    },
+    {
+      "index": 504523,
+      "teams": [
+        [
+          "NIP",
+          "Liquid"
+        ],
+        [
+          "PVISION",
+          "HEROIC",
+          "FaZe",
+          "Eternal Fire",
+          "100 Thieves",
+          "9z"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        17,
+        238,
+        20480
+      ],
+      "count": 149070,
+      "rank": 16,
+      "holdout": 59661
+    },
+    {
+      "index": 1261307,
+      "teams": [
+        [
+          "NIP",
+          "100 Thieves"
+        ],
+        [
+          "PVISION",
+          "HEROIC",
+          "FaZe",
+          "Liquid",
+          "Eternal Fire",
+          "M80"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        65,
+        318,
+        20480
+      ],
+      "count": 149065,
+      "rank": 17,
+      "holdout": 58909
+    },
+    {
+      "index": 1597651,
+      "teams": [
+        [
+          "Liquid",
+          "100 Thieves"
+        ],
+        [
+          "NIP",
+          "PVISION",
+          "HEROIC",
+          "FaZe",
+          "Eternal Fire",
+          "M80"
+        ],
+        [
+          "Chinggis Warriors",
+          "Lynn Vision"
+        ]
+      ],
+      "masks": [
+        80,
+        303,
+        49152
+      ],
+      "count": 148474,
+      "rank": 18,
+      "holdout": 59062
+    },
+    {
+      "index": 336383,
+      "teams": [
+        [
+          "PVISION",
+          "FaZe"
+        ],
+        [
+          "NIP",
+          "HEROIC",
+          "Liquid",
+          "Eternal Fire",
+          "100 Thieves",
+          "M80"
+        ],
+        [
+          "GOSH",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        10,
+        373,
+        20480
+      ],
+      "count": 148051,
+      "rank": 19,
+      "holdout": 58871
+    },
+    {
+      "index": 1345392,
+      "teams": [
+        [
+          "PVISION",
+          "100 Thieves"
+        ],
+        [
+          "NIP",
+          "HEROIC",
+          "FaZe",
+          "Liquid",
+          "Eternal Fire",
+          "M80"
+        ],
+        [
+          "FlyQuest",
+          "Chinggis Warriors"
+        ]
+      ],
+      "masks": [
+        66,
+        317,
+        24576
+      ],
+      "count": 147948,
+      "rank": 20,
+      "holdout": 58871
+    }
+  ],
+  "original": {
+    "index": 588635,
+    "teams": [
+      [
+        "PVISION",
+        "Liquid"
+      ],
+      [
+        "NIP",
+        "HEROIC",
+        "FaZe",
+        "Eternal Fire",
+        "100 Thieves",
+        "M80"
+      ],
+      [
+        "GOSH",
+        "Chinggis Warriors"
+      ]
+    ],
+    "masks": [
+      18,
+      365,
+      20480
+    ],
+    "count": 157609,
+    "rank": 1,
+    "holdout": 62791
+  },
+  "hedge": {
+    "index": 1849867,
+    "teams": [
+      [
+        "PVISION",
+        "9z"
+      ],
+      [
+        "NIP",
+        "HEROIC",
+        "FaZe",
+        "Liquid",
+        "Eternal Fire",
+        "100 Thieves"
+      ],
+      [
+        "GOSH",
+        "Chinggis Warriors"
+      ]
+    ],
+    "masks": [
+      130,
+      125,
+      20480
+    ],
+    "count": 143913,
+    "rank": 68,
+    "holdout": 56841
+  },
+  "fixedPassingTickets": 801836
+}

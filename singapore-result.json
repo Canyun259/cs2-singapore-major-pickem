@@ -1,0 +1,143 @@
+{
+  "snapshot": "2026-11-18",
+  "scale": 0.6635571906235758,
+  "weights": [
+    0.35168531103049516,
+    0.37822759865543815,
+    0.3981343143741454,
+    0.2322450167182515,
+    1.1280472240600787,
+    0
+  ],
+  "estimatedPass": 0.31443,
+  "previousPassOnSameRuns": 0.31443,
+  "headToHead": {
+    "newOnly": 0,
+    "otherOnly": 0,
+    "n": 100000
+  },
+  "picks": [
+    [
+      "PARIVISION",
+      "Liquid"
+    ],
+    [
+      "Ninjas in Pyjamas",
+      "HEROIC",
+      "FaZe",
+      "Eternal Fire",
+      "100 Thieves",
+      "M80"
+    ],
+    [
+      "BC.Game",
+      "Chinggis Warriors"
+    ]
+  ],
+  "marginals": {
+    "Ninjas in Pyjamas": [
+      0.2439,
+      0.51032,
+      0.03904
+    ],
+    "PARIVISION": [
+      0.26017,
+      0.50999,
+      0.03503
+    ],
+    "HEROIC": [
+      0.17986,
+      0.4624,
+      0.05731
+    ],
+    "FaZe": [
+      0.15442,
+      0.44403,
+      0.06839
+    ],
+    "Liquid": [
+      0.25145,
+      0.50715,
+      0.03386
+    ],
+    "Eternal Fire": [
+      0.15759,
+      0.46301,
+      0.06157
+    ],
+    "100 Thieves": [
+      0.21054,
+      0.49345,
+      0.04508
+    ],
+    "9z": [
+      0.09533,
+      0.35971,
+      0.11123
+    ],
+    "M80": [
+      0.09587,
+      0.40151,
+      0.11066
+    ],
+    "DENDELE": [
+      0.07774,
+      0.37227,
+      0.13425
+    ],
+    "Imperial": [
+      0.06079,
+      0.29718,
+      0.17006
+    ],
+    "Wildcard": [
+      0.0538,
+      0.28674,
+      0.17228
+    ],
+    "BC.Game": [
+      0.03512,
+      0.21581,
+      0.24829
+    ],
+    "FlyQuest": [
+      0.04878,
+      0.26003,
+      0.20385
+    ],
+    "Chinggis Warriors": [
+      0.028,
+      0.17604,
+      0.29329
+    ],
+    "Lynn Vision": [
+      0.04664,
+      0.24036,
+      0.21581
+    ]
+  },
+  "sensitivity": {
+    "model": "six separately fitted weights",
+    "picks": [
+      [
+        "Liquid",
+        "100 Thieves"
+      ],
+      [
+        "Ninjas in Pyjamas",
+        "PARIVISION",
+        "HEROIC",
+        "Eternal Fire",
+        "M80",
+        "DENDELE"
+      ],
+      [
+        "BC.Game",
+        "Chinggis Warriors"
+      ]
+    ],
+    "estimatedPass": 0.34271,
+    "selectedPass": 0.31434,
+    "previousPass": 0.31434
+  }
+}
